@@ -3,6 +3,7 @@ import { useEffect } from "react"
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
 
     return (
+
         <div className={`fixed top-0 left-0 w-full bg-[rgba(10,10,10,0.8)] 
             z-40 flex flex-col items-center justify-center 
             transition-all duration-300 ease-in-out 
@@ -30,8 +31,9 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
                 onClick={() => setMenuOpen(false)}>
                 Home
             </a>
+
             <a 
-                href="#About" 
+                href="#about" 
                 className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                     ${
                         menuOpen 
@@ -41,8 +43,9 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
                 onClick={() => setMenuOpen(false)}> 
                 About
             </a>
+
             <a 
-                href="#Projects" 
+                href="#projects" 
                 className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                     ${
                         menuOpen 
@@ -52,8 +55,9 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
                 onClick={() => setMenuOpen(false)}>
                 Projects
             </a>
+
             <a 
-                href="#Contact" 
+                href="#contact" 
                 className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                     ${
                         menuOpen 
@@ -63,6 +67,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
                 onClick={() => setMenuOpen(false)}>
                 Contact
             </a>
+
             <a 
                 href="#ojt" 
                 className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300

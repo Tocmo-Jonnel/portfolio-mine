@@ -7,8 +7,10 @@ import { Home } from './components/sections/Home';
 import './index.css';
 
 function App() {
+  
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true) }/>}
