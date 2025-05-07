@@ -32,7 +32,7 @@ export const Home = () => {
                         View Projects
                         </a>
 
-                        <a href="#contact" 
+                        <a href="#contacts" 
                         className="border border-blue-500/50 text-blue-500 
                             py-3 px-6 rounded font-medium transition-all duration-200
                             hover:-translate-y-1 

@@ -4,7 +4,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Contacts = () => {
   return (
-    <section id="home" 
+    <section id="contacts" 
             className="min-h-screen flex items-center justify-center ralative">
         <RevealOnScroll>
             <div className="max-w-3xl mx-auto text-center z-10 x-4">
