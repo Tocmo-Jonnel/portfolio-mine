@@ -7,6 +7,7 @@ import { Home } from './components/sections/Home';
 import { About } from './components/sections/About';
 import { Projects } from './components/sections/Projects';
 import { Contacts } from './components/sections/Contacts';
+import { OjtDocuments } from './components/sections/OjtDocuments';
 import './index.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <About />
             <Projects />
             <Contacts />
+            <OjtDocuments />
         </div>
     </>
   );
